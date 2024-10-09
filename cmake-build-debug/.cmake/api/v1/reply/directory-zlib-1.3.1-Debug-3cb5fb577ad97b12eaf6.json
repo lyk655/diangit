@@ -1,0 +1,119 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"zlib-1.3.1/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 188,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 191,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 194,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "C:/Program Files (x86)/diangit/lib",
+			"paths" : 
+			[
+				"zlib-1.3.1/libzlib.dll.a"
+			],
+			"targetId" : "zlib::@f830feac846f967d6823",
+			"targetIndex" : 5,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "C:/Program Files (x86)/diangit/bin",
+			"paths" : 
+			[
+				"zlib-1.3.1/libzlib.dll"
+			],
+			"targetId" : "zlib::@f830feac846f967d6823",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "C:/Program Files (x86)/diangit/lib",
+			"paths" : 
+			[
+				"zlib-1.3.1/libzlibstatic.a"
+			],
+			"targetId" : "zlibstatic::@f830feac846f967d6823",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "C:/Program Files (x86)/diangit/include",
+			"paths" : 
+			[
+				"cmake-build-debug/zlib-1.3.1/zconf.h",
+				"zlib-1.3.1/zlib.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "C:/Program Files (x86)/diangit/share/man/man3",
+			"paths" : 
+			[
+				"zlib-1.3.1/zlib.3"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "C:/Program Files (x86)/diangit/share/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/zlib-1.3.1/zlib.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "zlib-1.3.1",
+		"source" : "zlib-1.3.1"
+	}
+}
