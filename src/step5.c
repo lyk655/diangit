@@ -18,7 +18,7 @@ void refprintf(const char *path) {
     }
 
     while ((entry = readdir(dp))) {
-        if (entry->d_name[0] != '.'&&is_ignored(entry->d_name)) {
+        if (entry->d_name[0] != '.') {
             // 忽略隐藏文件
             if(strcmp(entry->d_name,"master")==0) {
                 printf("*");

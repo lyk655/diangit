@@ -32,5 +32,5 @@ void Init(int argc,char **argv) {
     checkfile("\\.git\\ref",path,"ref: refs\\heads\\master\n");//创建所需文件
     checkfile("\\.git\\caches\\index",path,"");
     checkfile("\\.git\\index",path,"");
-    printf("Initialized Git repository in %s/.git/\n",path);
+    printf("Initialized Git repository in %s\\.git\\\n",path);
 }
